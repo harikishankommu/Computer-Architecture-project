@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character encoding, viewport settings, and page title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cache Replacement Simulator</title>
+    
+    <!-- Link to the external CSS file (sheet.css) for styling -->
+    <link rel="stylesheet" href="sheet.css">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main container for the simulator content -->
+    <div class="container">
+       
+        <h1>CACHE REPLACEMENT SIMULATOR</h1>
+
+        <!-- Section for input: Cache Capacity -->
+        <label for="capacity">Cache Capacity:</label>
+        <!-- Input field for numeric value; min value set to 1 -->
+        <input type="number" id="capacity" min="1" placeholder="Enter capacity">
+
+        <!-- Section for selecting the cache replacement policy -->
+        <label for="policy">Choose Cache Policy:</label>
+        <select id="policy">
+            <!-- Option for FIFO (First In First Out) -->
+            <option value="FIFO">FIFO (First in First Out)</option>
+            <!-- Option for LRU (Least Recently Used) -->
+            <option value="LRU">LRU (Least Recently Used)</option>
+
+            <option value="LFU">LFU (Least Frequently Used)</option>
+            <option value="All">ALL (FIFO-LRU-LFU)</option>
+        </select>
+
+        <!-- Section for input: Access Pattern (list of cache accesses) -->
+        <label for="input">Access Pattern (comma separated):</label>
+        <!-- Text field where user enters comma separated values (e.g., "1,2,3,2,4") -->
+        <input type="text" id="input" placeholder="Enter access pattern">
+
+        <!-- Button that triggers the cache simulation when clicked -->
+        <button onclick="simulateCache()">Simulate</button>
+
+        <!-- Section to display the results -->
+        <h3>Results:</h3>
+        <!-- Preformatted text area to maintain whitespace and display simulation output -->
+        <pre id="output"></pre>
+    </div>
+
+    <!-- External JavaScript file that implements the simulation logic -->
+    <script src="script1.js"></script>
+</body>
+</html>
