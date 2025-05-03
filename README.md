@@ -119,8 +119,4 @@ Hit: 1 frequency increased...
 - G. Sai Charan - 2301MC25
 - P. Sai Bhargav - 2301MC24
 
-## License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
 ---
