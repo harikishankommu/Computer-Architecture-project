@@ -56,9 +56,9 @@ cache-simulator/
 ## Cache Policies Implemented
 
 ### 1. FIFO (First-In-First-Out)
-- **Mechanism**: Evicts the oldest item in cache
-- **Complexity**: O(1) for both access and eviction
-- **Best For**: Simple systems with sequential access patterns
+- **Mechanism**: Evicts the oldest item in cache.
+- **Complexity**: O(1) for both access and eviction.
+- **Best For**: Simple systems with sequential access patterns.
 
 ### 2. LRU (Least Recently Used)
 - **Mechanism**: Evicts the least recently accessed item
