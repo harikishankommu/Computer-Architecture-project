@@ -12,7 +12,7 @@ A web-based simulator that demonstrates and compares three fundamental cache rep
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript
+- **Frontend**: HTML5, CSS3,JavaScript
 - **Backend**: Python with Flask
 - **Styling**: Custom CSS with Google Fonts
 
